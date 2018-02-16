@@ -1,0 +1,19 @@
+{
+  "name": "shop-catalog",
+  "version": "1.0.0",
+  "description": "Product catalog shop project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nezhdetov/online-shop.git"
+  },
+  "author": "Gyokan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nezhdetov/online-shop/issues"
+  },
+  "homepage": "https://github.com/Nezhdetov/online-shop#readme"
+}
