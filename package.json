@@ -12,5 +12,12 @@
   "bugs": {
     "url": "https://github.com/Nezhdetov/online-shop/issues"
   },
-  "homepage": "https://github.com/Nezhdetov/online-shop#readme"
+  "homepage": "https://github.com/Nezhdetov/online-shop#readme",
+  "dependencies": {
+    "gulp": "3.9.1",
+    "gulp-clean-css": "3.9.2",
+    "gulp-rename": "1.2.2",
+    "multiparty": "^4.1.3",
+    "shortid": "^2.2.8"
+  }
 }

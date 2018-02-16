@@ -15,7 +15,7 @@ module.exports = (req, res) => {
 
   if (req.pathname.startsWith('/content/') && req.method === 'GET') {
     let filePath = path.normalize(path.join(__dirname, `../${req.pathname}`))
-
+    console.log(filePath)
     fs.readFile(filePath, (err, data) => {
       if (err) {
         res.writeHead(404, {
